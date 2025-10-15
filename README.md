@@ -34,7 +34,7 @@ Perfect for code archiving, context bundling for LLMs, or creating unified sourc
 
 1. **Download the script**:
    ```sh
-   curl -O https://raw.githubusercontent.com/your-username/your-repo/main/concat_files.sh
+   curl -O https://github.com/NIK2703/ConcatFilesScript/blob/main/concat_files.sh
    chmod +x concat_files.sh
    ```
 
@@ -123,3 +123,4 @@ Each file contains blocks like:
 - Patterns in `--ignore` and `.gitignore` are matched against **file/directory names only** (not full paths), similar to how `git` treats unrooted patterns.
 - Rules with `/` (e.g., `/build/`) are partially supported: leading `/` is stripped, and complex paths (e.g., `dir/file`) are ignored for safety.
 - The script **does not follow symlinks** (uses default `find` behavior).
+
